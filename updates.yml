@@ -1,5 +1,5 @@
 - hosts: "*"
-    tasks:
+  tasks:
     - name: apt
       apt:
         update_cache: yes
